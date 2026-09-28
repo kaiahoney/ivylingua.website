@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IvyLingua — English Online</title>
+<style>
+:root{--paper:#f4f0e8;--ink:#1c1c1a;--muted:#716c63;--line:#c9c2b5;--accent:#5d6b45}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 5vw;border-bottom:1px solid var(--line);font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+nav a{color:inherit;text-decoration:none;margin-left:25px}.logo{font-weight:700;letter-spacing:.12em}
+.hero{min-height:82vh;display:grid;place-items:center;padding:70px 7vw;text-align:center}
+.eyebrow,.label{font:11px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.eyebrow{margin-bottom:27px}
+h1{font-size:clamp(58px,11vw,145px);line-height:.82;font-weight:400;letter-spacing:-.065em;margin:0}
+.hero p{max-width:690px;margin:38px auto;font-size:clamp(19px,2.2vw,28px);line-height:1.35}
+.button{display:inline-block;padding:14px 23px;background:var(--ink);color:var(--paper);text-decoration:none;border-radius:100px;font:12px Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase;transition:.2s}
+.button:hover{background:var(--accent);transform:translateY(-2px)}
+section{padding:90px 7vw;border-top:1px solid var(--line)}
+.intro{display:grid;grid-template-columns:1fr 2fr;gap:7vw}.intro h2{font-size:clamp(36px,5vw,70px);font-weight:400;line-height:1;margin:0}.intro p{font-size:21px;line-height:1.55;max-width:730px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line);margin-top:35px}
+.card{padding:35px;min-height:275px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.number{font:11px Arial,sans-serif;color:var(--accent)}.card h3{font-size:31px;font-weight:400;margin:55px 0 15px}.card p{color:var(--muted);line-height:1.55;font:15px Arial,sans-serif}
+.statement{text-align:center;padding:125px 7vw}.statement blockquote{max-width:900px;margin:0 auto;font-size:clamp(32px,5vw,66px);line-height:1.04;font-weight:400}
+.links{display:flex;gap:15px;flex-wrap:wrap;margin-top:28px}
+footer{padding:30px 7vw;border-top:1px solid var(--line);display:flex;justify-content:space-between;font:11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
+@media(max-width:700px){nav div:last-child{display:none}.hero{min-height:70vh;padding:50px 6vw}.intro{grid-template-columns:1fr;gap:30px}.cards{grid-template-columns:1fr}section{padding:65px 6vw}footer{flex-direction:column;gap:12px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">IvyLingua</div>
+<div><a href="#about">About</a><a href="#lessons">Lessons</a><a href="#contact">Contact</a></div>
+</nav>
+
+<main>
+<section class="hero">
+<div>
+<div class="eyebrow">English Online · Language · Culture</div>
+<h1>IvyLingua</h1>
+<p>English lessons built around communication, curiosity and the world beyond the textbook.</p>
+<a class="button" href="https://www.instagram.com/ivylinguaschool?stkn=MWw0Nno2NjdkNnExcg%3D%3D&utm_source=qr" target="_blank">Visit Instagram</a>
+</div>
+</section>
+
+<section id="about">
+<div class="label">01 / The idea</div>
+<div class="intro">
+<h2>More than an English lesson.</h2>
+<p>IvyLingua is an online English space where language meets culture, history and real life. We use English to communicate, explore ideas and understand the world around us — with a clear structure and a personal approach to every learner.</p>
+</div>
+</section>
+
+<section id="lessons">
+<div class="label">02 / What we do</div>
+<div class="cards">
+<article class="card"><div class="number">01</div><h3>Communicate</h3><p>Speaking-focused lessons, thoughtful conversations and practical English you can actually use.</p></article>
+<article class="card"><div class="number">02</div><h3>Explore</h3><p>Authentic videos, texts, culture and history chosen to make English meaningful and memorable.</p></article>
+<article class="card"><div class="number">03</div><h3>Progress</h3><p>A structured programme adapted to your goals, level and individual requests — with consistent support.</p></article>
+</div>
+</section>
+
+<section class="statement">
+<blockquote>“Learn the language. Follow the curiosity.”</blockquote>
+</section>
+
+<section id="contact">
+<div class="label">03 / Find us</div>
+<div class="intro">
+<h2>Come inside IvyLingua.</h2>
+<div>
+<p>Follow the project for English, language notes, culture, history and ideas — and find out about lessons and new projects.</p>
+<div class="links"><a class="button" href="https://www.instagram.com/ivylinguaschool?stkn=MWw0Nno2NjdkNnExcg%3D%3D&utm_source=qr" target="_blank">Instagram →</a></div>
+</div>
+</div>
+</section>
+</main>
+<footer><span>© IvyLingua English Online</span><span>Language · Culture · Curiosity</span></footer>
+</body>
+</html>
